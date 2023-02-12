@@ -12,7 +12,7 @@
 }
 
 .primary-header-wrap h1 {
-font-family: Arial,Helvetica,sans-serif; font: normal normal normal 18px/1.4em open sans,sans-serif; color: rgb(70 70 70); padding-left: 5px;"
+font-family: Arial,Helvetica,sans-serif; font: normal normal normal 20px/1.4em open sans,sans-serif; color: rgb(70 70 70); padding-left: 5px;"
 }
 
 .primary-header-wrap .dummy-space-filler {
@@ -30,6 +30,8 @@ font-family: Arial,Helvetica,sans-serif; font: normal normal normal 18px/1.4em o
 
 .primary-header-wrap .logo-section img {
     height: 40px;
+    border: none;
+    margin-right: 5px;
 }
 
 .primary-header-wrap .menu-section{
