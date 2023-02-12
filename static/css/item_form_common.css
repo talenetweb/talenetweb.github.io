@@ -1,0 +1,55 @@
+
+  /* Form Styles */
+  .form-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+label {
+    display: block;
+    padding: 4px 10px 0 0;
+    float: left;
+    width: 200px;
+    text-align: left;
+    word-wrap: break-word;
+    line-height: 1;
+    font-weight: normal;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: default;
+}
+
+select {
+    height: 30px;
+    border: 1px solid #666;
+    border-radius: 4px;
+    padding: 5px 6px;
+    margin-top: 0;
+    color: #666;
+    margin: 2px 0;
+    padding: 2px 3px;
+    vertical-align: middle;
+    font-family: "Roboto", "Lucida Grande", Verdana, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 13px;
+}
+
+.help-text{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    clear: left;
+    margin-top: 0;
+    margin-left: 160px;
+    padding-left: 10px;
+    padding: 2px 3px;
+    font-size: 11px;
+    color: #666;
+}
+
+.field-wrapper {
+    padding: 10px;
+    font-size: 13px;
+    border-bottom: 1px solid #e8e8e8;
+}

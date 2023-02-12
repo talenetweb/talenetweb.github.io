@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+#VS Code files
+*.code-workspace
+.vscode/
+
+#Database
+*.DS_Store

@@ -1,0 +1,39 @@
+/* Styles for side menu. */
+.side-nav-menu-sub-heading, h6{
+	font-size: 15px;
+	font-weight: 700;
+	text-align: left;
+
+	margin-top: 20px;
+	margin-bottom: 5px;
+	margin-left: 2px;
+	margin-right: 0px;
+}
+
+.side-nav-menu-sub-content, p{
+	font-size: 15px;
+	font-weight: 400;
+	text-align: left;
+
+	margin-top: 0px;
+	margin-bottom: 5px;
+	margin-left: 8px;
+	margin-right: 0px;
+}
+
+/* Styles for side menu. */
+
+.sub-header-wrap {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+	font-size: small;
+	font-weight: 600;
+	height: 50px;
+
+	margin-top: 0px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	margin-right: 0px;
+}

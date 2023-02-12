@@ -1,0 +1,62 @@
+.wrapper-box-l1{
+	margin: 0px;
+	padding: 0px;
+  background: var(--primary-bg-color);
+}
+
+.wrapper-box-l2{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+  background: var(--bg-color-3);
+  border-width: 1px;
+  border-color: rgb(125, 116, 116);
+  border-radius: 6px;
+  margin-top: 8px;
+}
+
+/* Styles for invoice display. */
+
+.single-item-display table {
+  table-layout: fixed;
+  border: 1px solid rgb(154, 64, 64);
+  border-collapse: collapse;
+}
+.single-item-display tr, .single-item-display th,.single-item-display td {
+  border: 1px solid grey;
+  border-collapse: collapse;
+}
+.single-item-display input{
+  max-width: 100px;
+}
+
+
+.all-items-display-table table {
+  table-layout: fixed;
+  width: 98%;
+  border: 1px solid grey;
+  border-collapse: collapse;
+}
+
+.all-items-display-table tr, .all-items-display-table th,.all-items-display-table td {
+  border: 1px solid grey;
+  border-collapse: collapse;
+}
+
+.invoice-summary-disp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+}
+
+.invoice-summary-disp .invoice-summary-single-item-wrap{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+
+}
