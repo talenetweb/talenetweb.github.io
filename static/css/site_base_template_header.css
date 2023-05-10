@@ -57,3 +57,26 @@ font-family: Arial,Helvetica,sans-serif; font: normal normal normal 20px/1.4em o
     height: 50px;
     border: 1px solid #555;
 }
+
+
+/* -------------------------- Footer*/
+.footer-wrap {
+    height: 100px;
+    background-color: initial;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-around;
+
+    color: rgb(162, 155, 155);
+    background: #242321;
+    box-shadow: 0 16px 32px 0 rgb(189 195 199 / 60%);
+}
+.footer-wrap p{
+    font-size: x-small;
+    font-weight: 400;
+}
+.footer-wrap .dummy-space-filler {
+    flex : 1 1 auto;
+}
